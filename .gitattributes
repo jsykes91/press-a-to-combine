@@ -1,0 +1,6 @@
+# Windows batch files need Windows line endings
+*.bat text eol=crlf
+# Keep these exactly as made
+*.docx binary
+*.xlsx binary
+*.rtf binary

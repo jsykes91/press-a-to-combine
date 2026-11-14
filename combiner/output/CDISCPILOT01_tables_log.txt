@@ -1,0 +1,48 @@
+RTF COMBINER - RUN LOG
+======================================================================
+Run at        : 2026-11-14 21:05:25
+Program       : C:\Combine\output\combine.py (version 1.0)
+Python        : 3.14.4
+Study         : CDISCPILOT01
+Report title  : Section 14 Summary Tables
+Output        : C:\Combine\output\CDISCPILOT01_tables.docx
+Tables chosen : 3
+
+Inputs (in document order)
+----------------------------------------------------------------------
+ 1. Table 14.1.1 - Summary of Demographics (Safety Population)
+    file   : C:\Combine\input\t14-1-1-demog.rtf
+    layout : Landscape; size 29,974 bytes; modified 2026-11-14 19:55:18
+    md5    : b55f5ca639bd4744c9e92cc5042af83e
+ 2. Table 14.3.1.1 - Overall Summary of Treatment-Emergent Adverse Events (Safety Population)
+    file   : C:\Combine\input\t14-3-1-1-teae-summ.rtf
+    layout : Landscape; size 9,215 bytes; modified 2026-11-14 19:55:18
+    md5    : c15b5816c13ffdb30f3a87c1a6d9a5f1
+ 3. Table 14.3.3.1a - Summary of Observed and Change from Baseline by Scheduled Visits – Vital Signs (Safety Population)
+    file   : C:\Combine\input\t14-3-3-1-vitals-chgbl.rtf
+    layout : Landscape; size 424,949 bytes; modified 2026-11-14 19:55:18
+    md5    : deeca72fe0b356e5a60961449bd19477
+
+Steps
+----------------------------------------------------------------------
+21:05:25  Starting Microsoft Word (separate hidden instance)
+21:05:27  Word version 16.0
+21:05:27  [1/3] t14-1-1-demog.rtf: Table 14.1.1
+21:05:28      stand-alone in Word: 2 page(s), 1 section(s)
+21:05:29      combined document started from an emptied .docx copy of this file (Word compatibility mode 11, same layout settings as the RTF)
+21:05:35      copied: layout landscape, 2 page field(s) set to count this table only
+21:05:35  [2/3] t14-3-1-1-teae-summ.rtf: Table 14.3.1.1
+21:05:35      stand-alone in Word: 1 page(s), 1 section(s)
+21:05:39      copied: layout landscape, 2 page field(s) set to count this table only
+21:05:39  [3/3] t14-3-3-1-vitals-chgbl.rtf: Table 14.3.3.1a
+21:05:40      stand-alone in Word: 13 page(s), 1 section(s)
+21:05:47      copied: layout landscape, 2 page field(s) set to count this table only
+21:05:47  Updating page numbers, contents and page fields
+21:05:53  Checks
+21:05:53      Table 14.1.1         stand-alone   2  combined   2 (document pages 3-4)  OK
+21:05:53      Table 14.3.1.1       stand-alone   1  combined   1 (document pages 5-5)  OK
+21:05:54      Table 14.3.3.1a      stand-alone  13  combined  13 (document pages 6-18)  OK
+21:05:54      title + contents pages: 2; total document pages: 18 (expected 18) OK
+21:05:54  Saved C:\Combine\output\CDISCPILOT01_tables.docx
+21:05:57  
+21:05:57  RESULT: PASS - 3 table(s), 18 pages; every table has the same number of pages as on its own.

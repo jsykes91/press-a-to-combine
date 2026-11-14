@@ -1,0 +1,15 @@
+# Python's set-up, created by combine.bat on the first run
+.venv/
+__pycache__/
+# The combiner window's memory of your last folder and file names
+combiner/output/combine_settings.json
+combiner/output/combine_error.txt
+# Made fresh by run_all.R
+r/ard-programs/
+r/rtf/
+r/logs/
+.Rhistory
+.RData
+.Rproj.user/
+# Word's temporary lock files
+~$*
